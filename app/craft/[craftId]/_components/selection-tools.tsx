@@ -104,7 +104,7 @@ export const SelectionTools = memo(({
         <Hint label="Bring to front">
           <Button
             onClick={moveToFront}
-            variant="board"
+            variant="craft"
             size="icon"
           >
             <BringToFront />
@@ -113,7 +113,7 @@ export const SelectionTools = memo(({
         <Hint label="Send to back" side="bottom">
           <Button
             onClick={moveToBack}
-            variant="board"
+            variant="craft"
             size="icon"
           >
             <SendToBack />
@@ -123,7 +123,7 @@ export const SelectionTools = memo(({
       <div className="flex items-center pl-2 ml-2 border-l border-neutral-200">
         <Hint label="Delete">
           <Button
-            variant="board"
+            variant="craft"
             size="icon"
             onClick={deleteLayers}
           >
